@@ -4,7 +4,7 @@ return {
     "ellisonleao/gruvbox.nvim", 
     priority = 1000 , 
     config = function()
-      vim.o.background = "dark"
+      vim.o.background = "light"
       vim.cmd([[colorscheme gruvbox]])
     
     -- Disable italics for comments & strings in Gruvbox
